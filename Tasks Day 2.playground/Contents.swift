@@ -33,6 +33,9 @@ for number in 1...5{
 
 //Switch Task
 
+
+//Task 1
+
 var grades = "A"
 
 switch grades{
@@ -52,3 +55,20 @@ default:
     print("Poor")}
 
 
+//Task 2
+
+var trafficLight = "Red"
+
+
+switch trafficLight{
+    
+    
+case "Red":
+    print("Stop")
+    
+case "Yellow":
+    print("Get Ready")
+    
+default:
+    print("Go")
+}
